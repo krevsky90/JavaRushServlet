@@ -18,6 +18,10 @@
 </div>
 
 <div>       <!-- content -->
+  <h2>source tutorial pages:</h2>
+  <h3>https://javarush.ru/groups/posts/305-sozdanie-prosteyshego-web-proekta-v-intellij-idea-enterprise-edition-poshagovo-s-kartinkami</h3>
+  <h3>https://javarush.ru/groups/posts/328-sozdanie-prostogo-veb-prilozhenija-na-servletakh-i-jsp-chastjh-1</h3>
+  <h3>https://javarush.ru/groups/posts/356-sozdanie-prostogo-veb-prilozhenija-na-servletakh-i-jsp-chastjh-2</h3>
   <div>    <!-- buttons holder -->
     <button onclick="location.href='/list'">List users</button>
     <button onclick="location.href='/add'">Add user</button>
