@@ -12,5 +12,24 @@
 </head>
 <body>
 <h2>Body add jsp</h2>
+<form method="post">
+    <label>Name:
+        <input type="text" name="name"><br/>
+    </label>
+
+    <label>Password:
+        <input type="password" name="pass"><br/>
+    </label>
+    <button type="submit">Submit</button>
+</form>
+<%
+    String addedUser = (String) request.getAttribute("addedUser");
+    if (addedUser != null) {
+        out.println("added user is " + addedUser);
+    }
+%>
+<div>
+    <button onclick="location.href='/'">Back to main</button>
+</div>
 </body>
 </html>
